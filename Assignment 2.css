@@ -1,0 +1,170 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-wrap{
+    width: 100%;
+}
+
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-left{
+    width: 50%;
+    background-color:rgb(25, 24, 24);
+    padding: 80px;
+    border-top-left-radius: 5px;
+}
+
+.navbar-right{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+    width: 50%;
+    background-color: rgb(25, 24, 24);
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.navbar a{
+    left: 5%;
+}
+
+.first{
+    width: 100%;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-a{
+    width: 50%;
+    padding: 80px;
+}
+
+.first-b{
+    width: 50%;
+    padding: 4px;
+}
+
+.first-b img{
+    width: 600px;
+    height: 300px;
+}
+
+.first-a a{
+    background-color: orange;
+    color: white;
+    padding: 10px;
+}
+
+.second{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.second-text{
+    width: 415px;
+    padding: 20px;
+}
+
+
+.second-text a{
+    background-color: orange;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.card{
+    width:30%;
+    justify-content: center;
+}
+
+.sec1img{
+    width: 448px;
+    height: 300px;
+    padding: 5px;
+    object-fit: cover;
+}
+
+.third{
+    width: 100%;
+    background-color: rgb(25, 24, 24);
+    color: white;
+    gap: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.third-a{
+    display: flex;
+    width: 30%;
+    flex-direction: column;
+    text-align: center;
+    padding: 5px;
+}
+
+.third-b{
+   display: flex;
+   width: 40%;
+   flex-direction: column;
+   text-align: center;
+}
+
+.third-c{
+    display: flex;
+    width: 30%;
+    flex-direction: column;
+}
+
+.tlist{
+    width: 33.33%;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.fourth{
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+    display: flex;
+}
+
+ul li{
+    list-style-type: none;
+    padding: 15px;
+}
+
+.third-a p{
+    display: flex;
+    padding: 0px 80px;
+}
+
+.third-a img{
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+.third-c img{
+    width:15px;
+    height: 15px;
+    object-fit: cover;
+}
+
